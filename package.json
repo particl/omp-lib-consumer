@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "tsc && node ./dist/cli.js",
-    "setup": "python3 particl-test-env.py",
+    "setup": "python3 particl-test-env.py"
   },
   "dependencies": {
     "@types/chalk": "^2.2.0",
@@ -18,7 +18,7 @@
     "figlet": "^1.2.1",
     "got": "^9.6.0",
     "inquirer": "^6.2.2",
-    "omp-lib": "^0.1.25",
+    "omp-lib": "^0.1.26",
     "shelljs": "^0.8.3",
     "terminal-image": "^0.1.2",
     "tslib": "^1.9.3"

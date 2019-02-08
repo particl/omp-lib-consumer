@@ -10,6 +10,7 @@
 # instructions
 
 Make sure the right binary for your operating system is in ./bins/particl-core!
+Requires node >= v9 and python3!
 
 ```
 yarn install
