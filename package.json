@@ -1,0 +1,29 @@
+{
+  "name": "omp-lib-consumer",
+  "version": "1.0.0",
+  "main": "./dist/cli.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node ./dist/cli.js",
+    "setup": "python3 particl-test-env.py",
+  },
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/figlet": "^1.2.0",
+    "@types/got": "^9.4.0",
+    "@types/inquirer": "^0.0.43",
+    "@types/shelljs": "^0.8.2",
+    "@types/terminal-image": "^0.1.0",
+    "chalk": "^2.4.2",
+    "figlet": "^1.2.1",
+    "got": "^9.6.0",
+    "inquirer": "^6.2.2",
+    "omp-lib": "^0.1.25",
+    "shelljs": "^0.8.3",
+    "terminal-image": "^0.1.2",
+    "tslib": "^1.9.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  }
+}
